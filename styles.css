@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+  
+    
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+   
+    background-color: #3e2723;
+    padding: 30px;
+    border-radius: 10px;
+    width: 15%;
+  }
+
+  .container > div  {
+    background-color: #80cbc4;
+    border: 1px solid #fff;
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+  .item2, .item5, .item8 {
+    position: relative;
+    top:20px;
+  }
